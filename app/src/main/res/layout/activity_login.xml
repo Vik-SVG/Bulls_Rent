@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".LoginActivity">
+
+        <ImageView
+            android:id="@+id/logo_image_second"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/lovepik_com_401152186_blue_spot"
+            app:srcCompat="@drawable/car_logo"
+            android:transitionName="@string/logo_transition_name" />
+
+        <TextView
+            android:id="@+id/hello_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:transitionName="@string/text_transition_name"
+            android:text="Hello there Welcome back"
+            android:textColor="#000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/sign_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/antic"
+            android:transitionName="@string/description_text_transition"
+            android:text="Sign in to continue"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username_input_login_activity"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_edit_text"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColorHighlight="#000000"
+                    android:textColorLink="#000000"
+                    android:transitionName="@string/user_name_transition" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_input_login_activity"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_edit_text"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:transitionName="@string/password_transition" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="5dp"
+                android:backgroundTint="#ffffff"
+                android:elevation="2dp"
+                android:text="Forget Password"
+                android:textColor="#000"
+                app:iconTint="#FFFFFF" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/go_btn_login_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:transitionName="@string/go_button_transition"
+                android:text="Go"
+                android:textColor="#fff"
+                app:backgroundTint="#000000" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sign_up_login_activity_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:backgroundTint="#fff"
+                android:elevation="1dp"
+                android:transitionName="@string/login_sign_up_transition"
+                android:text="New User? SIGN UP"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

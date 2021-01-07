@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bull\'s Rent</string>
+    <string name="logo_transition_name">logos_images</string>
+    <string name="text_transition_name">logo_txt</string>
+    <string name="description_text_transition">description_txt_transition</string>
+    <string name="user_name_transition">user_name_transition</string>
+    <string name="password_transition">password_transition</string>
+    <string name="go_button_transition">go_button_transition</string>
+    <string name="login_sign_up_transition">login_sign_up_transition</string>
+    <string name="numbers_strating">+380</string>
+    <string-array name="code_numbers">
+        <item>+38</item>
+        <item>+48</item>
+        <item>+7</item>
+        <item>+86</item>
+    </string-array>
+</resources>

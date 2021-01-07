@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "76415281517",
+    "firebase_url": "https://bull-s-rent-dcb64-default-rtdb.firebaseio.com",
+    "project_id": "bull-s-rent-dcb64",
+    "storage_bucket": "bull-s-rent-dcb64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76415281517:android:aa6d050d6ca27292e35264",
+        "android_client_info": {
+          "package_name": "com.lessons.bullsrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76415281517-dak7hk5c65ll6r08s4kadkbajaj7lonk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lessons.bullsrent",
+            "certificate_hash": "7077b186f2884f822cfefb3be9b12c70178b2040"
+          }
+        },
+        {
+          "client_id": "76415281517-hbg1eg4ot28ee930fa71e5uorl99ittr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTeNJfTAtILQv3ynwNlyiRYjlcY9zerw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76415281517-hbg1eg4ot28ee930fa71e5uorl99ittr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
