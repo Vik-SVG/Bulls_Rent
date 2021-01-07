@@ -1,4 +1,5 @@
 # Bulls_Rent
+
 github repo for Bull's Rent
 
 Учебный проект.
@@ -6,4 +7,5 @@ github repo for Bull's Rent
 Язык программирования: Kotlin
 
 Приложение с высплывающим экраном-заставкой, формой регистрации/входа и базовым рабочим кабинетом. 
+
 Реализована анимация, подтверждение телефоного номера, Firebase Auth/RealtimeDB, Material Design.
