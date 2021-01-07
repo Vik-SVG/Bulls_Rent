@@ -10,4 +10,4 @@ github repo for Bull's Rent
 An app with a splash screen, sign in/sign up form and basic workspace.
 
 Реализованs анимация, подтверждение телефоного номера, Firebase Auth/RealtimeDB, Material Design / 
-There are also were implemented animation, phone verification, Firebase Auth/RealtimeDB, Material Design
+There are also were implemented animation, phone verification, Firebase Auth/RealtimeDB, Material Design.
